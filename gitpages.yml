@@ -1,0 +1,95 @@
+# Welcome to Gitpages!
+
+# This playground is designed to allow you to create landing pages.
+
+# How to get started
+
+# 1. Press CTRL + Space (to get the block snippets) in the code editor.
+# 2. Choose which blocks you want and edit them (view them as you go!)
+# 3. Once happy, export to GitHub or just static HTML 🔥
+
+# TIP: Use the slider to see Desktop, Tablet or Mobile views 👍
+
+version: 1
+
+theme:
+  primary: pink
+
+blocks:
+  - type: 'navigation'
+    style: 'solid'
+    props:
+      title: 'Trapheus '
+      showViewOnGitHubButton: true
+
+  - type: 'hero'
+    style: 'stacked'
+    props:
+      title: 'Trapheus'
+      coverImage: "https://images.unsplash.com/photo-1621927238630-a85e0f7e519c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1952&q=80"
+      subtitle: 'Restore RDS instances in AWS without worrying about client downtime or configuration retention'
+      callToAction:
+        label: 'Get Started'
+        href: "https://github.com/intuit/Trapheus"
+
+
+  - type: "features"
+    style: "stacked"
+    props:
+      dark: true
+      title: "One utility, multiple use cases"
+      features:
+        - title: "Faster than SQL Dumps"
+          description: "Trapheus works on database snapshots and hence is much faster since it requires very less I/O operations"
+          icon: "LightningBoltIcon"
+        - title: "Works for all RDS"
+          description: "Trapheus works across all RDS landscapes including clusters and non-clustered ones"
+          icon: "GlobeAltIcon"
+        - title: "Configuration Parity"
+          description: "Trapheus keeps the network/security configuration etc. before and after restore the same"
+          icon: "AnnotationIcon"
+        - title: "Available via command line"
+          description: "Trapheus is also available via command line for flexibility of operations"
+          icon: "GlobeAltIcon"
+        - title: "Scheduled execution"
+          description: "Scheduling the restoration at predefined intervals"
+          icon: "ClockIcon"
+        - title: "Zerto downtime restore"
+          description: "restore behind a cname to avoid downtimes"
+          icon: "PauseIcon"
+
+  - type: 'content'
+    style: 'stacked'
+    props:
+      title: 'Why choose us?'
+      subtitle: 'StellWe love to help developers and system architects to quickly restore database 
+      when you are e.g. writing database migrations, switching branches or messing with SQL'
+
+  - type: "stats"
+    style: "stacked"
+    props:
+      title: "Project Numbers"
+      subtitle: "We are fully open source "
+      stats:
+        - value: "100%"
+          label: "Open Source"
+        - value: "53"
+          label: "Stars"
+        - value: "200+"
+          label: "Commits"
+
+  - type: "footer"
+    style: "links"
+    props:
+      copyright: ""
+      twitterUrl: "https://twitter.com/boyney123"
+      githubUrl: "https://github.com/"
+      links:
+        - label: "About"
+          href: "#"
+        - label: "Here"
+          href: "#"
+        - label: "Blog"
+          href: "#"
+        - label: "Youtube"
+          href: "#"        
