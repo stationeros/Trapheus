@@ -388,7 +388,6 @@ Prepare your environment. Install tools as needed.
 ## Blogs
 * [Inception of Trapheus](https://medium.com/intuit-engineering/trapheus-9895c5da0bd7)
 * [What is Trapheus](https://aws.amazon.com/blogs/opensource/what-is-trapheus/)
-* [Celebrating three years of Trapheus with Hacktoberfest](https://medium.com/intuit-engineering/celebrating-three-years-of-trapheus-with-hacktoberfest-43a4043dc60f)
 
 ## Maintainers 
 1. Namita Devadas (@namitad)
